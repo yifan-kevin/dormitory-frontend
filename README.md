@@ -1,4 +1,4 @@
-# 宿舍管理系统
+# 基于SpringBoot的学生宿舍管理系统
 
 面向高校住宿管理的 Web 前端，基于 **Vue 3 + Element Plus**，配套 **Spring Boot 后端**。学生、宿舍管理员、维修人员和后勤管理员通过各自的工作台处理住宿、报修、调宿及日常事务。
 
@@ -67,8 +67,8 @@
 ### 1. 下载并安装依赖
 
 ```sh
-git clone https://github.com/yifan-kevin/dormitory-management-system.git
-cd dormitory-management-system
+git clone https://github.com/yifan-kevin/springboot-student-dormitory-management-system.git
+cd springboot-student-dormitory-management-system
 npm ci
 ```
 
@@ -146,7 +146,7 @@ NODE_OPTIONS=--openssl-legacy-provider npm run build
 server {
     listen 80;
     server_name localhost;
-    root /var/www/dormitory-management-system/dist;
+    root /var/www/springboot-student-dormitory-management-system/dist;
     index index.html;
 
     location /api/ {
@@ -168,7 +168,7 @@ server {
 ## 目录结构
 
 ```text
-dormitory-management-system/
+springboot-student-dormitory-management-system/
 ├── docs/images/          # README 截图与微信二维码
 ├── public/
 │   ├── images/           # 校园展示图片
