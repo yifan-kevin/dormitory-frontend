@@ -67,8 +67,8 @@
 ### 1. 下载并安装依赖
 
 ```sh
-git clone https://github.com/yifan-kevin/dormitory-frontend.git
-cd dormitory-frontend
+git clone https://github.com/yifan-kevin/dormitory-management-system.git
+cd dormitory-management-system
 npm ci
 ```
 
@@ -146,7 +146,7 @@ NODE_OPTIONS=--openssl-legacy-provider npm run build
 server {
     listen 80;
     server_name localhost;
-    root /var/www/dormitory-frontend/dist;
+    root /var/www/dormitory-management-system/dist;
     index index.html;
 
     location /api/ {
@@ -168,7 +168,7 @@ server {
 ## 目录结构
 
 ```text
-dormitory-frontend/
+dormitory-management-system/
 ├── docs/images/          # README 截图与微信二维码
 ├── public/
 │   ├── images/           # 校园展示图片
